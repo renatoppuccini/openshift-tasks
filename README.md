@@ -47,3 +47,16 @@ REST Endpoints on OpenShift
   ```
   curl -X GET http://tasks-dev.10.1.2.10.xip.io/demo/load/5 # 5 seconds
   ```
+PIPELINE Configuration (Jenkinsfile)
+-----------
+
+Adding serviceaccount with imagePuller policy to realize deploy in different envs
+
+  ```
+
+oc new-project cicd
+
+oc policy add-role-to-group system:image-puller system:serviceaccounts:app-qa -n cicd
+oc policy add-role-to-group system:image-puller system:serviceaccounts:app-prod -n cicd
+
+  ```
