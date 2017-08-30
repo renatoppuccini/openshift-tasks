@@ -46,6 +46,9 @@ try {
                openshiftVerifyDeployment depCfg: 'openshift-tasks', namespace: 'tasks', replicaCount: '1', verbose: 'false', verifyReplicaCount: 'false', waitTime: '', waitUnit: 'sec'
                openshiftVerifyService namespace: 'tasks', svcName: 'openshift-tasks', verbose: 'false'
           }
+           }
+         stage('Promover?') {
+            input "Deseja Promover para Produção?"
         }
    }
 } catch (err) {
