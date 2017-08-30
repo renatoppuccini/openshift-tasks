@@ -1,0 +1,46 @@
+//Config from file
+//def mvnCmd = "mvn -s ./nexus_openshift_settings.xml"
+
+try {
+   timeout(time: 20, unit: 'MINUTES') {
+      node('maven') {
+          stage('Checkout Git') {
+            //openshiftBuild(buildConfig: tasks, showBuildLogs: 'true')
+            //checkout scm
+            git 'https://github.com/renatoppuccini/openshift-tasks.git'
+          }
+          stage('Build Binary') {
+            //openshiftDeploy(deploymentConfig: '${NAME}')
+             echo "Building New Version"
+
+            sh "mvn clean package -DskipTests"
+          }
+                
+          def groupId    = getGroupIdFromPom("pom.xml")
+          def artifactId = getArtifactIdFromPom("pom.xml")
+          def version = getVersionFromPom("pom.xml")
+          
+          stage('Build OpenShift Image') {
+               
+                
+                def newTag = "TestingCandidate-${version}"
+                echo "New Tag: ${newTag}"
+            
+                // Copy the war file we just built and rename to ROOT.war
+                sh "cp ./target/openshift-tasks.war ./ROOT.war"
+            
+                // Start Binary Build in OpenShift using the file we just published
+                // Replace shared-tasks-dev with the name of your dev project
+                //sh "oc project shared-tasks-dev"
+                sh "oc start-build tasks --follow --from-file=./ROOT.war"
+            
+                openshiftTag alias: 'false', destStream: 'tasks', destTag: newTag, destinationNamespace: 'php-pipeline', namespace: 'php-pipeline', srcStream: 'tasks', srcTag: 'latest', verbose: 'false'
+            }
+        }
+   }
+} catch (err) {
+   echo "in catch block"
+   echo "Caught: ${err}"
+   currentBuild.result = 'FAILURE'
+   throw err
+}          
