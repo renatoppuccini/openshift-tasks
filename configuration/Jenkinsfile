@@ -16,14 +16,14 @@ try {
             sh "mvn clean package -DskipTests"
           }
                 
-          def groupId    = getGroupIdFromPom("pom.xml")
-          def artifactId = getArtifactIdFromPom("pom.xml")
-          def version = getVersionFromPom("pom.xml")
+          //def groupId    = getGroupIdFromPom("pom.xml")
+          //def artifactId = getArtifactIdFromPom("pom.xml")
+          //def version = getVersionFromPom("pom.xml")
           
           stage('Build OpenShift Image') {
                
                 
-                def newTag = "TestingCandidate-${version}"
+                def newTag = "TestingCandidate"
                 echo "New Tag: ${newTag}"
             
                 // Copy the war file we just built and rename to ROOT.war
