@@ -32,9 +32,9 @@ try {
                 // Start Binary Build in OpenShift using the file we just published
                 // Replace shared-tasks-dev with the name of your dev project
                 //sh "oc project shared-tasks-dev"
-                sh "oc start-build tasks --follow --from-file=./ROOT.war"
+                sh "oc start-build openshift-tasks --follow --from-file=./ROOT.war"
             
-                openshiftTag alias: 'false', destStream: 'tasks', destTag: newTag, destinationNamespace: 'php-pipeline', namespace: 'php-pipeline', srcStream: 'tasks', srcTag: 'latest', verbose: 'false'
+                openshiftTag alias: 'false', destStream: 'tasks', destTag: newTag, destinationNamespace: 'tasks', namespace: 'tasks', srcStream: 'openshift-tasks', srcTag: 'latest', verbose: 'false'
             }
         }
    }
