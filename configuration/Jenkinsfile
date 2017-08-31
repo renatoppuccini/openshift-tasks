@@ -15,15 +15,16 @@ try {
 
             sh "mvn clean package -DskipTests"
           }
-                
-          //def groupId    = getGroupIdFromPom("pom.xml")
-          //def artifactId = getArtifactIdFromPom("pom.xml")
-          //def version = getVersionFromPom("pom.xml")
+           // The following variables need to be defined at the top level and not inside
+           // the scope of a stage - otherwise they would not be accessible from other stages.
+           // Extract version and other properties from the pom.xml
+           def groupId    = getGroupIdFromPom("pom.xml")
+           def artifactId = getArtifactIdFromPom("pom.xml")
+           def version = getVersionFromPom("pom.xml")
           
           stage('Build OpenShift Image') {
-               
                 
-                def newTag = "TestingCandidate"
+                def newTag = "ProdReady-${version}"
                 echo "New Tag: ${newTag}"
             
                 // Copy the war file we just built and rename to ROOT.war
@@ -59,3 +60,18 @@ try {
    currentBuild.result = 'FAILURE'
    throw err
 }          
+
+
+// Convenience Functions to read variables from the pom.xml
+def getVersionFromPom(pom) {
+  def matcher = readFile(pom) =~ '<version>(.+)</version>'
+  matcher ? matcher[0][1] : null
+}
+def getGroupIdFromPom(pom) {
+  def matcher = readFile(pom) =~ '<groupId>(.+)</groupId>'
+  matcher ? matcher[0][1] : null
+}
+def getArtifactIdFromPom(pom) {
+  def matcher = readFile(pom) =~ '<artifactId>(.+)</artifactId>'
+  matcher ? matcher[0][1] : null
+}
