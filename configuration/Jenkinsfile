@@ -45,7 +45,7 @@ try {
             //openshiftDeploy(deploymentConfig: '${NAME}')
              echo "Deploying New Version"
 
-               sh "oc patch dc openshift-tasks --patch '{\"spec\": { \"triggers\": [ { \"type\": \"ImageChange\", \"imageChangeParams\": { \"containerNames\": [ \"openshift-tasks\" ], \"from\": { \"kind\": \"ImageStreamTag\", \"namespace\": \"tasks\", \"name\": \"tasks:TestingCandidate\"}}}]}}' -n tasks"
+               sh "oc patch dc openshift-tasks --patch '{\"spec\": { \"triggers\": [ { \"type\": \"ImageChange\", \"imageChangeParams\": { \"containerNames\": [ \"openshift-tasks\" ], \"from\": { \"kind\": \"ImageStreamTag\", \"namespace\": \"tasks\", \"name\": \"tasks:ProdReady-$version\"}}}]}}' -n tasks"
 
                openshiftDeploy depCfg: 'openshift-tasks', namespace: 'tasks', verbose: 'false', waitTime: '', waitUnit: 'sec'
                openshiftVerifyDeployment depCfg: 'openshift-tasks', namespace: 'tasks', replicaCount: '1', verbose: 'false', verifyReplicaCount: 'false', waitTime: '', waitUnit: 'sec'
