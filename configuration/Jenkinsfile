@@ -36,6 +36,10 @@ try {
             
                 openshiftTag alias: 'false', destStream: 'tasks', destTag: newTag, destinationNamespace: 'tasks', namespace: 'tasks', srcStream: 'openshift-tasks', srcTag: 'latest', verbose: 'false'
             }
+         
+            stage('Promover?') {
+               input "Deseja Promover para Produção?"
+           }
            stage('Deploy App') {
             //openshiftDeploy(deploymentConfig: '${NAME}')
              echo "Deploying New Version"
@@ -47,9 +51,7 @@ try {
                openshiftVerifyService namespace: 'tasks', svcName: 'openshift-tasks', verbose: 'false'
           }
            }
-         stage('Promover?') {
-            input "Deseja Promover para Produção?"
-        }
+         
    }
 } catch (err) {
    echo "in catch block"
