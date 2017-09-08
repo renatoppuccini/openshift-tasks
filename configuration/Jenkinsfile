@@ -35,7 +35,7 @@ try {
                 //sh "oc project shared-tasks-dev"
                 sh "oc start-build openshift-tasks --follow --from-file=./ROOT.war"
             
-                openshiftTag alias: 'false', destStream: 'tasks', destTag: newTag, destinationNamespace: 'tasks', namespace: 'tasks', srcStream: 'openshift-tasks', srcTag: 'latest', verbose: 'false'
+                openshiftTag alias: 'false', destStream: 'tasks', destTag: newTag, destinationNamespace: 'teste-eap', namespace: 'teste-eap', srcStream: 'openshift-tasks', srcTag: 'latest', verbose: 'false'
             }
          
             stage('Promover?') {
@@ -45,11 +45,11 @@ try {
             //openshiftDeploy(deploymentConfig: '${NAME}')
              echo "Deploying New Version"
 
-               sh "oc patch dc openshift-tasks --patch '{\"spec\": { \"triggers\": [ { \"type\": \"ImageChange\", \"imageChangeParams\": { \"containerNames\": [ \"openshift-tasks\" ], \"from\": { \"kind\": \"ImageStreamTag\", \"namespace\": \"tasks\", \"name\": \"tasks:ProdReady-$version\"}}}]}}' -n tasks"
+               sh "oc patch dc openshift-tasks --patch '{\"spec\": { \"triggers\": [ { \"type\": \"ImageChange\", \"imageChangeParams\": { \"containerNames\": [ \"openshift-tasks\" ], \"from\": { \"kind\": \"ImageStreamTag\", \"namespace\": \"teste-eap\", \"name\": \"tasks:ProdReady-$version\"}}}]}}' -n teste-eap"
 
-               openshiftDeploy depCfg: 'openshift-tasks', namespace: 'tasks', verbose: 'false', waitTime: '', waitUnit: 'sec'
-               openshiftVerifyDeployment depCfg: 'openshift-tasks', namespace: 'tasks', replicaCount: '1', verbose: 'false', verifyReplicaCount: 'false', waitTime: '', waitUnit: 'sec'
-               openshiftVerifyService namespace: 'tasks', svcName: 'openshift-tasks', verbose: 'false'
+               openshiftDeploy depCfg: 'openshift-tasks', namespace: 'teste-eap', verbose: 'false', waitTime: '', waitUnit: 'sec'
+               openshiftVerifyDeployment depCfg: 'openshift-tasks', namespace: 'teste-eap', replicaCount: '1', verbose: 'false', verifyReplicaCount: 'false', waitTime: '', waitUnit: 'sec'
+               openshiftVerifyService namespace: 'teste-eap', svcName: 'openshift-tasks', verbose: 'false'
           }
            }
          
