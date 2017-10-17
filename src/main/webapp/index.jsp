@@ -2,6 +2,12 @@
 <!--[if IE 9]><html lang="en-us" class="ie9"><![endif]-->
 <!--[if gt IE 9]><!-->
 <html lang="en-us">
+	
+	<script type="text/javascript" 
+		src="https://js-cdn.dynatrace.com/jstag/147f84b2bdc/ruxitagent_ICA237SVaflqrtvx_10129170927131437.js" 
+		data-dtconfig="app=5B45467801659092|sies=true|cors=1|sffs=true|featureHash=ICA237SVaflqrtvx|instr=ncw,clk,mup,blr,chg,tos|lastModification=0|ffi=true|dtVersion=10129170927131437|evl=clk,mup,chg,blr,tcs,tce|reportUrl=https://bf20190olf.bf.dynatrace.com/bf|tp=500,50,0,1" 
+		crossorigin="anonymous">
+	</script>
 <!--<![endif]-->
   <head>
     <title>OpenShift Demo Tasks</title>
