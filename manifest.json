@@ -1,0 +1,1019 @@
+{
+  "version" : "1.129.125.20171006-124623",
+  "technologies" : {
+    "apache" : {
+      "linux-x86-32" : [ {
+        "path" : "agent/bin/linux-x86-32/liboneagentloader.so",
+        "md5" : "70afe162c9650874eabc2bff357104ea",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "loader"
+      }, {
+        "path" : "agent/lib/liboneagentloader.so",
+        "md5" : "70afe162c9650874eabc2bff357104ea",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/conf/runtime/default/apache/binary_linux-x86-32",
+        "md5" : "109e7fdc4c8954ee84e8d7d497608e3a",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-32/liboneagentapache.so",
+        "md5" : "86e78d5d04444a965c1ad3791fcf6b52",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "primary"
+      }, {
+        "path" : "agent/lib/liboneagentproc.so",
+        "md5" : "7ec617376fa2f3ddd12eba6d2e929ed5",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/conf/ruxitagentproc.conf",
+        "md5" : "654625582b875147ae0f7ffa65b10eb2",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/ruxitserver.pem",
+        "md5" : "50a8b45ef07615eecaa41c106fcaaf8e",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/ruxitserverfull.pem",
+        "md5" : "06629db7f712ff3a75630eccaecc1fe4",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "dynatrace-agent32.sh",
+        "md5" : "6e0fa6988090401fcb21435d041dd0c3",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "log/ignore_me.txt",
+        "md5" : "654d9bae4c6f2c6773f69a0cceb3b120",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "dynatrace-env.sh",
+        "md5" : "c32b5db61e76987018d18097005c404c",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "agent/installer.version",
+        "md5" : "afc8024b5f13f49600a397f238dd89a0",
+        "version" : "1.129.125.20171006-124623"
+      } ],
+      "linux-x86-64" : [ {
+        "path" : "agent/bin/linux-x86-64/liboneagentloader.so",
+        "md5" : "1fd5c35e119bd21996dcf9f2a02b579c",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "loader"
+      }, {
+        "path" : "agent/lib64/liboneagentloader.so",
+        "md5" : "1fd5c35e119bd21996dcf9f2a02b579c",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/conf/runtime/default/apache/binary_linux-x86-64",
+        "md5" : "0adadb23db033e3b3212d47ed454d58f",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-64/liboneagentapache.so",
+        "md5" : "8019829570d3ef96dd44d92a0cad17d5",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "primary"
+      }, {
+        "path" : "agent/lib64/liboneagentproc.so",
+        "md5" : "40cdf84fe9dde37819c17037551c7a8a",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/conf/ruxitagentproc.conf",
+        "md5" : "654625582b875147ae0f7ffa65b10eb2",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/ruxitserver.pem",
+        "md5" : "50a8b45ef07615eecaa41c106fcaaf8e",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/ruxitserverfull.pem",
+        "md5" : "06629db7f712ff3a75630eccaecc1fe4",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "dynatrace-agent64.sh",
+        "md5" : "453dba358a9df4438e9f359dfa2129de",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "log/ignore_me.txt",
+        "md5" : "654d9bae4c6f2c6773f69a0cceb3b120",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "dynatrace-env.sh",
+        "md5" : "c32b5db61e76987018d18097005c404c",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "agent/installer.version",
+        "md5" : "afc8024b5f13f49600a397f238dd89a0",
+        "version" : "1.129.125.20171006-124623"
+      } ]
+    },
+    "go" : {
+      "linux-x86-32" : [ {
+        "path" : "agent/bin/linux-x86-32/liboneagentloader.so",
+        "md5" : "70afe162c9650874eabc2bff357104ea",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "loader"
+      }, {
+        "path" : "agent/lib/liboneagentloader.so",
+        "md5" : "70afe162c9650874eabc2bff357104ea",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/conf/runtime/default/go/binary_linux-x86-32",
+        "md5" : "2a0dde98daa53def77b1fe73ba9e823e",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-32/liboneagentgo.so",
+        "md5" : "43e1e5486a65663216188c8e7e046e97",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "primary"
+      }, {
+        "path" : "agent/conf/runtime/default/go/binary_linux-x86-32",
+        "md5" : "7af5ed293b4740752356f48e72246fdf",
+        "version" : "0.8.13.20170828-162914"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-32/libelf.so",
+        "md5" : "0b0f531295b2481fbb743dd81056eeab",
+        "version" : "0.8.13.20170828-162914",
+        "binarytype" : "primary"
+      }, {
+        "path" : "agent/conf/runtime/default/go/binary_linux-x86-32",
+        "md5" : "1666d3a9b0fd9efa1b44c0ac0097a49e",
+        "version" : "0.8.13.20170828-162914"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-32/libelf.so.0",
+        "md5" : "0b0f531295b2481fbb743dd81056eeab",
+        "version" : "0.8.13.20170828-162914",
+        "binarytype" : "primary"
+      }, {
+        "path" : "agent/conf/runtime/default/go/binary_linux-x86-32",
+        "md5" : "3b4b47f246549b2a55055d4c29856cf9",
+        "version" : "0.8.13.20170828-162914"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-32/libelf.so.0.8.13",
+        "md5" : "0b0f531295b2481fbb743dd81056eeab",
+        "version" : "0.8.13.20170828-162914",
+        "binarytype" : "primary"
+      }, {
+        "path" : "agent/lib/liboneagentproc.so",
+        "md5" : "7ec617376fa2f3ddd12eba6d2e929ed5",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/conf/ruxitagentproc.conf",
+        "md5" : "654625582b875147ae0f7ffa65b10eb2",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/ruxitserver.pem",
+        "md5" : "50a8b45ef07615eecaa41c106fcaaf8e",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/ruxitserverfull.pem",
+        "md5" : "06629db7f712ff3a75630eccaecc1fe4",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "dynatrace-agent32.sh",
+        "md5" : "6e0fa6988090401fcb21435d041dd0c3",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "log/ignore_me.txt",
+        "md5" : "654d9bae4c6f2c6773f69a0cceb3b120",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "dynatrace-env.sh",
+        "md5" : "c32b5db61e76987018d18097005c404c",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "agent/installer.version",
+        "md5" : "afc8024b5f13f49600a397f238dd89a0",
+        "version" : "1.129.125.20171006-124623"
+      } ],
+      "linux-x86-64" : [ {
+        "path" : "agent/bin/linux-x86-64/liboneagentloader.so",
+        "md5" : "1fd5c35e119bd21996dcf9f2a02b579c",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "loader"
+      }, {
+        "path" : "agent/lib64/liboneagentloader.so",
+        "md5" : "1fd5c35e119bd21996dcf9f2a02b579c",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/conf/runtime/default/go/binary_linux-x86-64",
+        "md5" : "7d4a6b99db1928648b63d001219d7416",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-64/liboneagentgo.so",
+        "md5" : "7b30f6899d77d4211839fefc957346ca",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "primary"
+      }, {
+        "path" : "agent/conf/runtime/default/go/binary_linux-x86-64",
+        "md5" : "1869f878d8f4028dffa03c7635e392a5",
+        "version" : "0.8.13.20170828-162914"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-64/libelf.so",
+        "md5" : "32bb03ba86846120ee9578ca44d375a7",
+        "version" : "0.8.13.20170828-162914",
+        "binarytype" : "primary"
+      }, {
+        "path" : "agent/conf/runtime/default/go/binary_linux-x86-64",
+        "md5" : "5948a2e11011744a25cb6780ec464800",
+        "version" : "0.8.13.20170828-162914"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-64/libelf.so.0",
+        "md5" : "32bb03ba86846120ee9578ca44d375a7",
+        "version" : "0.8.13.20170828-162914",
+        "binarytype" : "primary"
+      }, {
+        "path" : "agent/conf/runtime/default/go/binary_linux-x86-64",
+        "md5" : "8e97fda592f487af540c031dbb74248e",
+        "version" : "0.8.13.20170828-162914"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-64/libelf.so.0.8.13",
+        "md5" : "32bb03ba86846120ee9578ca44d375a7",
+        "version" : "0.8.13.20170828-162914",
+        "binarytype" : "primary"
+      }, {
+        "path" : "agent/lib64/liboneagentproc.so",
+        "md5" : "40cdf84fe9dde37819c17037551c7a8a",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/conf/ruxitagentproc.conf",
+        "md5" : "654625582b875147ae0f7ffa65b10eb2",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/ruxitserver.pem",
+        "md5" : "50a8b45ef07615eecaa41c106fcaaf8e",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/ruxitserverfull.pem",
+        "md5" : "06629db7f712ff3a75630eccaecc1fe4",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "dynatrace-agent64.sh",
+        "md5" : "453dba358a9df4438e9f359dfa2129de",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "log/ignore_me.txt",
+        "md5" : "654d9bae4c6f2c6773f69a0cceb3b120",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "dynatrace-env.sh",
+        "md5" : "c32b5db61e76987018d18097005c404c",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "agent/installer.version",
+        "md5" : "afc8024b5f13f49600a397f238dd89a0",
+        "version" : "1.129.125.20171006-124623"
+      } ]
+    },
+    "java" : {
+      "linux-x86-32" : [ {
+        "path" : "agent/bin/linux-x86-32/liboneagentloader.so",
+        "md5" : "70afe162c9650874eabc2bff357104ea",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "loader"
+      }, {
+        "path" : "agent/lib/liboneagentloader.so",
+        "md5" : "70afe162c9650874eabc2bff357104ea",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/conf/runtime/default/java/binary_linux-x86-32",
+        "md5" : "c350f1232676d20b619e76b62c3b6d4b",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-32/liboneagentjava.so",
+        "md5" : "d5c1443b2ed221d60c76aac860d54dab",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "primary"
+      }, {
+        "path" : "agent/lib/liboneagentproc.so",
+        "md5" : "7ec617376fa2f3ddd12eba6d2e929ed5",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/any/java/ruleset",
+        "md5" : "9fa3ca412c2da9ab2f06432a68a3b144",
+        "version" : "1.129.118.20171003-124805"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/any/java/oneagentjava.jar",
+        "md5" : "70e39206aa9434291f33916ff5e0d6e4",
+        "version" : "1.129.118.20171003-124805"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/any/java/oneagentjava.addons.jar",
+        "md5" : "ff278cfe5fd768b17463ddd077a2d646",
+        "version" : "1.129.118.20171003-124805"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/any/java/oneagentjava.rmi.jar",
+        "md5" : "adc6b37e26208363135aad1e5e6ff5f1",
+        "version" : "1.129.118.20171003-124805"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/any/java/oneagentjava.sql.jar",
+        "md5" : "402579fcf5be35e66f0da5745f04e4c6",
+        "version" : "1.129.118.20171003-124805"
+      }, {
+        "path" : "agent/conf/runtime/default/java/runtimeConfiguration",
+        "md5" : "a794c73bd7ce780b1a1791169679be6d",
+        "version" : "1.129.113.20170929-105242"
+      }, {
+        "path" : "agent/conf/ruxitagentproc.conf",
+        "md5" : "654625582b875147ae0f7ffa65b10eb2",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/ruxitserver.pem",
+        "md5" : "50a8b45ef07615eecaa41c106fcaaf8e",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/ruxitserverfull.pem",
+        "md5" : "06629db7f712ff3a75630eccaecc1fe4",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "dynatrace-java-env.sh",
+        "md5" : "681895ae2732157e914ddb84138131a2",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "dynatrace-agent32.sh",
+        "md5" : "6e0fa6988090401fcb21435d041dd0c3",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "log/ignore_me.txt",
+        "md5" : "654d9bae4c6f2c6773f69a0cceb3b120",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "dynatrace-env.sh",
+        "md5" : "c32b5db61e76987018d18097005c404c",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "agent/installer.version",
+        "md5" : "afc8024b5f13f49600a397f238dd89a0",
+        "version" : "1.129.125.20171006-124623"
+      } ],
+      "linux-x86-64" : [ {
+        "path" : "agent/bin/linux-x86-64/liboneagentloader.so",
+        "md5" : "1fd5c35e119bd21996dcf9f2a02b579c",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "loader"
+      }, {
+        "path" : "agent/lib64/liboneagentloader.so",
+        "md5" : "1fd5c35e119bd21996dcf9f2a02b579c",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/conf/runtime/default/java/binary_linux-x86-64",
+        "md5" : "51565d6a2af6201b78e0796d19f9ff36",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-64/liboneagentjava.so",
+        "md5" : "0ea2e99021ae1755158f33c869a887b1",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "primary"
+      }, {
+        "path" : "agent/lib64/liboneagentproc.so",
+        "md5" : "40cdf84fe9dde37819c17037551c7a8a",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/any/java/ruleset",
+        "md5" : "9fa3ca412c2da9ab2f06432a68a3b144",
+        "version" : "1.129.118.20171003-124805"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/any/java/oneagentjava.jar",
+        "md5" : "70e39206aa9434291f33916ff5e0d6e4",
+        "version" : "1.129.118.20171003-124805"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/any/java/oneagentjava.addons.jar",
+        "md5" : "ff278cfe5fd768b17463ddd077a2d646",
+        "version" : "1.129.118.20171003-124805"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/any/java/oneagentjava.rmi.jar",
+        "md5" : "adc6b37e26208363135aad1e5e6ff5f1",
+        "version" : "1.129.118.20171003-124805"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/any/java/oneagentjava.sql.jar",
+        "md5" : "402579fcf5be35e66f0da5745f04e4c6",
+        "version" : "1.129.118.20171003-124805"
+      }, {
+        "path" : "agent/conf/runtime/default/java/runtimeConfiguration",
+        "md5" : "a794c73bd7ce780b1a1791169679be6d",
+        "version" : "1.129.113.20170929-105242"
+      }, {
+        "path" : "agent/conf/ruxitagentproc.conf",
+        "md5" : "654625582b875147ae0f7ffa65b10eb2",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/ruxitserver.pem",
+        "md5" : "50a8b45ef07615eecaa41c106fcaaf8e",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/ruxitserverfull.pem",
+        "md5" : "06629db7f712ff3a75630eccaecc1fe4",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "dynatrace-java-env.sh",
+        "md5" : "681895ae2732157e914ddb84138131a2",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "dynatrace-agent64.sh",
+        "md5" : "453dba358a9df4438e9f359dfa2129de",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "log/ignore_me.txt",
+        "md5" : "654d9bae4c6f2c6773f69a0cceb3b120",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "dynatrace-env.sh",
+        "md5" : "c32b5db61e76987018d18097005c404c",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "agent/installer.version",
+        "md5" : "afc8024b5f13f49600a397f238dd89a0",
+        "version" : "1.129.125.20171006-124623"
+      } ]
+    },
+    "nginx" : {
+      "linux-x86-32" : [ {
+        "path" : "agent/bin/linux-x86-32/liboneagentloader.so",
+        "md5" : "70afe162c9650874eabc2bff357104ea",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "loader"
+      }, {
+        "path" : "agent/lib/liboneagentloader.so",
+        "md5" : "70afe162c9650874eabc2bff357104ea",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/conf/ruxitagentproc.conf",
+        "md5" : "654625582b875147ae0f7ffa65b10eb2",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/ruxitserver.pem",
+        "md5" : "50a8b45ef07615eecaa41c106fcaaf8e",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/ruxitserverfull.pem",
+        "md5" : "06629db7f712ff3a75630eccaecc1fe4",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/runtime/default/nginx/binary_linux-x86-32",
+        "md5" : "9da5cf7cea1eef15c1dc11a1cb576ae6",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-32/liboneagentnginx.so",
+        "md5" : "1249d55e33407e0f55e6445bbea7ea76",
+        "version" : "1.129.123.20171006-090136",
+        "binarytype" : "primary"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-32/libdwarf.so",
+        "md5" : "44abcd63f66dd120efac0ad882be0f16",
+        "version" : "20160215.20170904-164005"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-32/libelf.so",
+        "md5" : "0b0f531295b2481fbb743dd81056eeab",
+        "version" : "0.8.13.20170828-162914"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-32/libelf.so.0",
+        "md5" : "0b0f531295b2481fbb743dd81056eeab",
+        "version" : "0.8.13.20170828-162914"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-32/libelf.so.0.8.13",
+        "md5" : "0b0f531295b2481fbb743dd81056eeab",
+        "version" : "0.8.13.20170828-162914"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-32/nginx-offsets.json",
+        "md5" : "9cecd4ae54d808baf5d757ad780a6a7c",
+        "version" : "1.1.0.20171006-001200"
+      }, {
+        "path" : "agent/lib/liboneagentproc.so",
+        "md5" : "7ec617376fa2f3ddd12eba6d2e929ed5",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "dynatrace-nginx-env.sh",
+        "md5" : "dea02de6b5403a26078f834c805d60d8",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "dynatrace-agent32.sh",
+        "md5" : "6e0fa6988090401fcb21435d041dd0c3",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "log/ignore_me.txt",
+        "md5" : "654d9bae4c6f2c6773f69a0cceb3b120",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "dynatrace-env.sh",
+        "md5" : "c32b5db61e76987018d18097005c404c",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "agent/installer.version",
+        "md5" : "afc8024b5f13f49600a397f238dd89a0",
+        "version" : "1.129.125.20171006-124623"
+      } ],
+      "linux-x86-64" : [ {
+        "path" : "agent/bin/linux-x86-64/liboneagentloader.so",
+        "md5" : "1fd5c35e119bd21996dcf9f2a02b579c",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "loader"
+      }, {
+        "path" : "agent/lib64/liboneagentloader.so",
+        "md5" : "1fd5c35e119bd21996dcf9f2a02b579c",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/conf/ruxitagentproc.conf",
+        "md5" : "654625582b875147ae0f7ffa65b10eb2",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/ruxitserver.pem",
+        "md5" : "50a8b45ef07615eecaa41c106fcaaf8e",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/ruxitserverfull.pem",
+        "md5" : "06629db7f712ff3a75630eccaecc1fe4",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/runtime/default/nginx/binary_linux-x86-64",
+        "md5" : "4fdaace5266b2832396c6375e736560d",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-64/liboneagentnginx.so",
+        "md5" : "951e624699701be275f6f583873a6d17",
+        "version" : "1.129.123.20171006-090136",
+        "binarytype" : "primary"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-64/libdwarf.so",
+        "md5" : "41be425ae13eb872931d67254a4c6ca9",
+        "version" : "20160215.20170904-164005"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-64/libelf.so",
+        "md5" : "32bb03ba86846120ee9578ca44d375a7",
+        "version" : "0.8.13.20170828-162914"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-64/libelf.so.0",
+        "md5" : "32bb03ba86846120ee9578ca44d375a7",
+        "version" : "0.8.13.20170828-162914"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-64/libelf.so.0.8.13",
+        "md5" : "32bb03ba86846120ee9578ca44d375a7",
+        "version" : "0.8.13.20170828-162914"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-64/nginx-offsets.json",
+        "md5" : "9cecd4ae54d808baf5d757ad780a6a7c",
+        "version" : "1.1.0.20171006-001200"
+      }, {
+        "path" : "agent/lib64/liboneagentproc.so",
+        "md5" : "40cdf84fe9dde37819c17037551c7a8a",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "dynatrace-nginx-env.sh",
+        "md5" : "dea02de6b5403a26078f834c805d60d8",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "dynatrace-agent64.sh",
+        "md5" : "453dba358a9df4438e9f359dfa2129de",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "log/ignore_me.txt",
+        "md5" : "654d9bae4c6f2c6773f69a0cceb3b120",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "dynatrace-env.sh",
+        "md5" : "c32b5db61e76987018d18097005c404c",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "agent/installer.version",
+        "md5" : "afc8024b5f13f49600a397f238dd89a0",
+        "version" : "1.129.125.20171006-124623"
+      } ]
+    },
+    "nodejs" : {
+      "linux-x86-32" : [ {
+        "path" : "agent/bin/any/onenodeloader.js",
+        "md5" : "3cfc9df80c69df0d8ce412b91236d1bb",
+        "version" : "1.129.32.20170907-121020",
+        "binarytype" : "loader"
+      }, {
+        "path" : "agent/conf/ruxitagentproc.conf",
+        "md5" : "654625582b875147ae0f7ffa65b10eb2",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/ruxitserver.pem",
+        "md5" : "50a8b45ef07615eecaa41c106fcaaf8e",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/ruxitserverfull.pem",
+        "md5" : "06629db7f712ff3a75630eccaecc1fe4",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/runtime/default/nodejs/binary_linux-x86-32",
+        "md5" : "4bb7170bba0263693ec53a7d5daf1878",
+        "version" : "1.129.32.20170907-121020"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/any/nodejs/nodejsagent.js",
+        "md5" : "f5dd0e75d3ca12a032ada43ff94c260b",
+        "version" : "1.129.32.20170907-121020",
+        "binarytype" : "primary"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/any/nodejs/node_modules/semver/LICENSE",
+        "md5" : "82703a69f6d7411dde679954c2fd9dca",
+        "version" : "1.129.32.20170907-121020"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/any/nodejs/node_modules/semver/README.md",
+        "md5" : "3f7e41fd51f088d29f7c3fc385e7b38b",
+        "version" : "1.129.32.20170907-121020"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/any/nodejs/node_modules/semver/bin/semver",
+        "md5" : "f9116052a4b516a8c850efc0fdd85cad",
+        "version" : "1.129.32.20170907-121020"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/any/nodejs/node_modules/semver/package.json",
+        "md5" : "f901771866da54ae7f376624b440468f",
+        "version" : "1.129.32.20170907-121020"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/any/nodejs/node_modules/semver/range.bnf",
+        "md5" : "b54e62147bf496590215391ac37153a3",
+        "version" : "1.129.32.20170907-121020"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/any/nodejs/node_modules/semver/semver.js",
+        "md5" : "f6e6f65685c5395a5c078b65104f8db6",
+        "version" : "1.129.32.20170907-121020"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/any/nodejs/package.json",
+        "md5" : "8f4e3a067e1aed33b03134c72e526104",
+        "version" : "1.129.32.20170907-121020"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-32/oneagentnode_11.node",
+        "md5" : "5f8b59b7d00f3aaa96d06215b25e24a7",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-32/oneagentnode_14.node",
+        "md5" : "3a8dd081ff82f645653241ddcefbd009",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-32/oneagentnode_46.node",
+        "md5" : "4e508028e55785529477907489c2fdc9",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-32/oneagentnode_47.node",
+        "md5" : "11d732c3fe0a09f7ed8d49d93afd6d5d",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-32/oneagentnode_48.node",
+        "md5" : "e884c701fba8e858b0b6be999dbbf14d",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-32/oneagentnode_51.node",
+        "md5" : "07a5d2bd1111f2e59fce0f1a648f291b",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-32/oneagentnode_57.node",
+        "md5" : "08641ef8dd1b87c51735ebf52cb80024",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/bin/linux-x86-32/liboneagentloader.so",
+        "md5" : "70afe162c9650874eabc2bff357104ea",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "loader"
+      }, {
+        "path" : "agent/bin/linux-x86-32/oneagentnodeloader_11.node",
+        "md5" : "7d76ee7ae9678eb9de793c5ff22d1a3a",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "loader"
+      }, {
+        "path" : "agent/bin/linux-x86-32/oneagentnodeloader_14.node",
+        "md5" : "23cf9b0a861cd776310ca9bdc1a4e1b6",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "loader"
+      }, {
+        "path" : "agent/bin/linux-x86-32/oneagentnodeloader_46.node",
+        "md5" : "5e28c19808de9a62cc8c6d290ef3b1a2",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "loader"
+      }, {
+        "path" : "agent/bin/linux-x86-32/oneagentnodeloader_47.node",
+        "md5" : "1086b8adb6a06ecbd317049d25b2d6f0",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "loader"
+      }, {
+        "path" : "agent/bin/linux-x86-32/oneagentnodeloader_48.node",
+        "md5" : "58d6174f04f0cd826d7b0058320c63cb",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "loader"
+      }, {
+        "path" : "agent/bin/linux-x86-32/oneagentnodeloader_51.node",
+        "md5" : "91ee30acca7ac961266ad142c119b3de",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "loader"
+      }, {
+        "path" : "agent/bin/linux-x86-32/oneagentnodeloader_57.node",
+        "md5" : "715b093debc6b840862140a179c44706",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "loader"
+      }, {
+        "path" : "agent/lib/liboneagentproc.so",
+        "md5" : "7ec617376fa2f3ddd12eba6d2e929ed5",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "log/ignore_me.txt",
+        "md5" : "654d9bae4c6f2c6773f69a0cceb3b120",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "dynatrace-env.sh",
+        "md5" : "c32b5db61e76987018d18097005c404c",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "agent/installer.version",
+        "md5" : "afc8024b5f13f49600a397f238dd89a0",
+        "version" : "1.129.125.20171006-124623"
+      } ],
+      "linux-x86-64" : [ {
+        "path" : "agent/bin/any/onenodeloader.js",
+        "md5" : "3cfc9df80c69df0d8ce412b91236d1bb",
+        "version" : "1.129.32.20170907-121020",
+        "binarytype" : "loader"
+      }, {
+        "path" : "agent/conf/ruxitagentproc.conf",
+        "md5" : "654625582b875147ae0f7ffa65b10eb2",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/ruxitserver.pem",
+        "md5" : "50a8b45ef07615eecaa41c106fcaaf8e",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/ruxitserverfull.pem",
+        "md5" : "06629db7f712ff3a75630eccaecc1fe4",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/runtime/default/nodejs/binary_linux-x86-64",
+        "md5" : "4bb7170bba0263693ec53a7d5daf1878",
+        "version" : "1.129.32.20170907-121020"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/any/nodejs/nodejsagent.js",
+        "md5" : "f5dd0e75d3ca12a032ada43ff94c260b",
+        "version" : "1.129.32.20170907-121020",
+        "binarytype" : "primary"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/any/nodejs/node_modules/semver/LICENSE",
+        "md5" : "82703a69f6d7411dde679954c2fd9dca",
+        "version" : "1.129.32.20170907-121020"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/any/nodejs/node_modules/semver/README.md",
+        "md5" : "3f7e41fd51f088d29f7c3fc385e7b38b",
+        "version" : "1.129.32.20170907-121020"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/any/nodejs/node_modules/semver/bin/semver",
+        "md5" : "f9116052a4b516a8c850efc0fdd85cad",
+        "version" : "1.129.32.20170907-121020"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/any/nodejs/node_modules/semver/package.json",
+        "md5" : "f901771866da54ae7f376624b440468f",
+        "version" : "1.129.32.20170907-121020"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/any/nodejs/node_modules/semver/range.bnf",
+        "md5" : "b54e62147bf496590215391ac37153a3",
+        "version" : "1.129.32.20170907-121020"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/any/nodejs/node_modules/semver/semver.js",
+        "md5" : "f6e6f65685c5395a5c078b65104f8db6",
+        "version" : "1.129.32.20170907-121020"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/any/nodejs/package.json",
+        "md5" : "8f4e3a067e1aed33b03134c72e526104",
+        "version" : "1.129.32.20170907-121020"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-64/oneagentnode_11.node",
+        "md5" : "a9a77e34da85abfd8ac6f44e77efc6b1",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-64/oneagentnode_14.node",
+        "md5" : "76de6e592a877f7fbf845a2c1846b1fc",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-64/oneagentnode_46.node",
+        "md5" : "75e43a039c7f7a6ad538369fea7a4b38",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-64/oneagentnode_47.node",
+        "md5" : "7aa98bc077a45e2a58ff0d02b61f9aff",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-64/oneagentnode_48.node",
+        "md5" : "6a3bbdab08d6b63a85a541da6d569d99",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-64/oneagentnode_51.node",
+        "md5" : "abde7d4838265dd50d2404030a74ce3c",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-64/oneagentnode_57.node",
+        "md5" : "fadde1fce3e40adb502a9e9ea8812988",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/bin/linux-x86-64/liboneagentloader.so",
+        "md5" : "1fd5c35e119bd21996dcf9f2a02b579c",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "loader"
+      }, {
+        "path" : "agent/bin/linux-x86-64/oneagentnodeloader_11.node",
+        "md5" : "02d8ae3df7903ef1fadb52429341cff5",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "loader"
+      }, {
+        "path" : "agent/bin/linux-x86-64/oneagentnodeloader_14.node",
+        "md5" : "16ae082ebeaefb2fb4d27db2dc485823",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "loader"
+      }, {
+        "path" : "agent/bin/linux-x86-64/oneagentnodeloader_46.node",
+        "md5" : "81b4869ab06d8af3475066a5f2220de4",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "loader"
+      }, {
+        "path" : "agent/bin/linux-x86-64/oneagentnodeloader_47.node",
+        "md5" : "2275f69ab01ee9dab6861d4d0bf7f70b",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "loader"
+      }, {
+        "path" : "agent/bin/linux-x86-64/oneagentnodeloader_48.node",
+        "md5" : "efb92dd5f2dcb0240b65267a7d33651d",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "loader"
+      }, {
+        "path" : "agent/bin/linux-x86-64/oneagentnodeloader_51.node",
+        "md5" : "148d659be18b7188b05fa748fd357b02",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "loader"
+      }, {
+        "path" : "agent/bin/linux-x86-64/oneagentnodeloader_57.node",
+        "md5" : "9ae45de3ca851bc76d4b27975783d5dd",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "loader"
+      }, {
+        "path" : "agent/lib64/liboneagentproc.so",
+        "md5" : "40cdf84fe9dde37819c17037551c7a8a",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "log/ignore_me.txt",
+        "md5" : "654d9bae4c6f2c6773f69a0cceb3b120",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "dynatrace-env.sh",
+        "md5" : "c32b5db61e76987018d18097005c404c",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "agent/installer.version",
+        "md5" : "afc8024b5f13f49600a397f238dd89a0",
+        "version" : "1.129.125.20171006-124623"
+      } ]
+    },
+    "php" : {
+      "linux-x86-32" : [ {
+        "path" : "agent/bin/linux-x86-32/liboneagentloader.so",
+        "md5" : "70afe162c9650874eabc2bff357104ea",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "loader"
+      }, {
+        "path" : "agent/lib/liboneagentloader.so",
+        "md5" : "70afe162c9650874eabc2bff357104ea",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/conf/ruxitagentproc.conf",
+        "md5" : "654625582b875147ae0f7ffa65b10eb2",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/ruxitserver.pem",
+        "md5" : "50a8b45ef07615eecaa41c106fcaaf8e",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/ruxitserverfull.pem",
+        "md5" : "06629db7f712ff3a75630eccaecc1fe4",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/runtime/default/php/binary_linux-x86-32",
+        "md5" : "1256d9e8a653f04b9980fbff901b6c1e",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-32/liboneagentphp.so",
+        "md5" : "611fe07e2789e0ca6239a6656b955a7e",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "primary"
+      }, {
+        "path" : "agent/lib/liboneagentproc.so",
+        "md5" : "7ec617376fa2f3ddd12eba6d2e929ed5",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "dynatrace-agent32.sh",
+        "md5" : "6e0fa6988090401fcb21435d041dd0c3",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "log/ignore_me.txt",
+        "md5" : "654d9bae4c6f2c6773f69a0cceb3b120",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "dynatrace-env.sh",
+        "md5" : "c32b5db61e76987018d18097005c404c",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "agent/installer.version",
+        "md5" : "afc8024b5f13f49600a397f238dd89a0",
+        "version" : "1.129.125.20171006-124623"
+      } ],
+      "linux-x86-64" : [ {
+        "path" : "agent/bin/linux-x86-64/liboneagentloader.so",
+        "md5" : "1fd5c35e119bd21996dcf9f2a02b579c",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "loader"
+      }, {
+        "path" : "agent/lib64/liboneagentloader.so",
+        "md5" : "1fd5c35e119bd21996dcf9f2a02b579c",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/conf/ruxitagentproc.conf",
+        "md5" : "654625582b875147ae0f7ffa65b10eb2",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/ruxitserver.pem",
+        "md5" : "50a8b45ef07615eecaa41c106fcaaf8e",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/ruxitserverfull.pem",
+        "md5" : "06629db7f712ff3a75630eccaecc1fe4",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/runtime/default/php/binary_linux-x86-64",
+        "md5" : "3718c066c705520f18c5160e87283ae6",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-64/liboneagentphp.so",
+        "md5" : "585375b648fe465b93cd4e87f5a50355",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "primary"
+      }, {
+        "path" : "agent/lib64/liboneagentproc.so",
+        "md5" : "40cdf84fe9dde37819c17037551c7a8a",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "dynatrace-agent64.sh",
+        "md5" : "453dba358a9df4438e9f359dfa2129de",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "log/ignore_me.txt",
+        "md5" : "654d9bae4c6f2c6773f69a0cceb3b120",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "dynatrace-env.sh",
+        "md5" : "c32b5db61e76987018d18097005c404c",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "agent/installer.version",
+        "md5" : "afc8024b5f13f49600a397f238dd89a0",
+        "version" : "1.129.125.20171006-124623"
+      } ]
+    },
+    "dotnet" : {
+      "linux-x86-64" : [ {
+        "path" : "agent/bin/linux-x86-64/liboneagentloader.so",
+        "md5" : "1fd5c35e119bd21996dcf9f2a02b579c",
+        "version" : "1.129.122.20171005-135748",
+        "binarytype" : "loader"
+      }, {
+        "path" : "agent/lib64/liboneagentloader.so",
+        "md5" : "1fd5c35e119bd21996dcf9f2a02b579c",
+        "version" : "1.129.122.20171005-135748"
+      }, {
+        "path" : "agent/conf/runtime/default/dotnet/binary_linux-x86-64",
+        "md5" : "ccb43f43df8ed943e1420e976250dcb7",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/linux-x86-64/liboneagentdotnet.so",
+        "md5" : "5a683aca66454e900b82de0b889307d3",
+        "version" : "1.129.123.20171006-090136",
+        "binarytype" : "primary"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/any/dotnet/ruleset",
+        "md5" : "e3773cd026d749aebb9e98865417d3d6",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/bin/1.129.125.20171006-124623/any/dotnet/oneagentdotnet.zip",
+        "md5" : "96a08ffed6cbb1eaa251386900b0392c",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/runtime/default/dotnet/runtimeConfiguration",
+        "md5" : "7cadf6cd222384ea69d0d6dacb7271f4",
+        "version" : "1.129.113.20170929-105242"
+      }, {
+        "path" : "agent/conf/ruxitserver.pem",
+        "md5" : "50a8b45ef07615eecaa41c106fcaaf8e",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "agent/conf/ruxitserverfull.pem",
+        "md5" : "06629db7f712ff3a75630eccaecc1fe4",
+        "version" : "1.129.123.20171006-090136"
+      }, {
+        "path" : "log/ignore_me.txt",
+        "md5" : "654d9bae4c6f2c6773f69a0cceb3b120",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "dynatrace-env.sh",
+        "md5" : "c32b5db61e76987018d18097005c404c",
+        "version" : "1.129.125.20171006-124623"
+      }, {
+        "path" : "agent/installer.version",
+        "md5" : "afc8024b5f13f49600a397f238dd89a0",
+        "version" : "1.129.125.20171006-124623"
+      } ]
+    }
+  },
+  "tenantUUID" : "ine71203",
+  "tenantToken" : "7tlPpnAtjWf80M8W",
+  "communicationEndpoints" : [ "https://sg-us-east-1-34-203-81-189-prod-us-east-cluster-2.live.ruxit.com/communication", "https://sg-us-east-1-54-164-42-22-prod-us-east-cluster-2.live.ruxit.com/communication", "https://sg-us-east-1-54-164-49-176-prod-us-east-cluster-2.live.ruxit.com/communication", "https://sg-us-east-1-34-205-222-178-prod-us-east-cluster-2.live.ruxit.com/communication", "https://sg-us-east-1-52-1-155-152-prod-us-east-cluster-2.live.ruxit.com/communication" ]
+}
